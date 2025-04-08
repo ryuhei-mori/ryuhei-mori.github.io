@@ -1,0 +1,284 @@
+preprints:
+  - title: "Complexity of graph-state preparation by Clifford circuits"
+    authors: ["S. Kumabe", "R. Mori", "Y. Yoshimura"]
+    month: "Feb."
+    year: 2024
+    arxiv: "2402.05874"
+
+  - title: "Lower bounds on the error probability of multiple quantum channel discrimination by the Bures angle and the trace distance"
+    authors: ["R. Ito", "R. Mori"]
+    month: "Jul."
+    year: 2021
+    arxiv: "2107.03948"
+
+
+journal_papers:
+  - title: "Quantum speedup for higher-order unconstrained binary optimization and MIMO maximum likelihood detection"
+    authors: ["M. Norimoto", "R. Mori", "N. Ishikawa"]
+    journal: "IEEE Trans. Commun."
+    year: 2023
+    volume: 71
+    issue: 4
+    pages: "1926--1939"
+    doi: "10.1109/TCOMM.2023.3244924"
+    arxiv: "2205.15478"
+  
+  - title: "Exponential-time quantum algorithms for graph coloring problems"
+    authors: ["K. Shimizu", "R. Mori"]
+    journal: "Algorithmica"
+    year: 2022
+    volume: 84
+    pages: "3603--3621"
+    doi: "10.1007/s00453-022-00976-2"
+    arxiv: "1907.00529"
+
+  - title: "Periodic Fourier representation of Boolean functions"
+    authors: ["R. Mori"]
+    journal: "Quantum Information & Computation"
+    year: 2019
+    volume: 19
+    issue: "5&6"
+    pages: "0392--0412"
+    doi: "10.26421/QIC19.5-6-2"
+    arxiv: "1803.09947"
+
+  - title: "Better protocol for XOR game using communication protocol and nonlocal boxes"
+    authors: ["R. Mori"]
+    journal: "Quantum Inf. Comput."
+    year: 2017
+    volume: 17
+    issue: "15&16"
+    pages: "1261--1276"
+    doi: "10.26421/QIC17.15-16-1"
+
+  - title: "Three-input majority function as the unique optimal function for the bias amplification using nonlocal boxes"
+    authors: ["R. Mori"]
+    journal: "Phys. Rev. A"
+    year: 2016
+    volume: 94
+    pages: "052130"
+    doi: "10.1103/PhysRevA.94.052130"
+
+  - title: "Loop calculus for non-binary alphabets using concepts from information geometry"
+    authors: ["R. Mori"]
+    journal: "IEEE Trans. Inf. Theory"
+    year: 2015
+    volume: 61
+    issue: 4
+    pages: "1887--1904"
+    doi: "10.1109/TIT.2015.2403239"
+
+  - title: "Source and channel polarization over finite fields and Reed-Solomon matrices"
+    authors: ["R. Mori", "T. Tanaka"]
+    journal: "IEEE Trans. Inf. Theory"
+    year: 2014
+    volume: 60
+    issue: 5
+    pages: "2720--2736"
+    doi: "10.1109/TIT.2014.2312181"
+
+  - title: "Rate-dependent analysis of the asymptotic behavior of channel polarization"
+    authors: ["S.H. Hassani", "R. Mori", "T. Tanaka", "R. Urbanke"]
+    journal: "IEEE Trans. Inf. Theory"
+    year: 2013
+    volume: 59
+    issue: 4
+    pages: "2267--2276"
+    doi: "10.1109/TIT.2012.2228295"
+
+  - title: "Effects of single-cycle structure on iterative decoding of low-density parity-check codes"
+    authors: ["R. Mori", "T. Tanaka", "K. Kasai", "K. Sakaniwa"]
+    journal: "IEEE Trans. Inf. Theory"
+    year: 2013
+    volume: 59
+    issue: 1
+    pages: "238--253"
+    doi: "10.1109/TIT.2012.2216252"
+
+  - title: "Performance of polar codes with the construction using density evolution"
+    authors: ["R. Mori", "T. Tanaka"]
+    journal: "IEEE Commun. Lett."
+    year: 2009
+    volume: 13
+    issue: 7
+    pages: "519--521"
+    doi: "10.1109/LCOMM.2009.090428"
+
+conference_papers:
+  - title: "Parameterized quantum query algorithms for graph problems"
+    authors: ["T. Terao", "R. Mori"]
+    conference: "European Symposium on Algorithms"
+    confabbr: "ESA"
+    series: "LIPIcs"
+    volume: 308
+    pages: "99:1--99:16"
+    year: 2024
+    doi: "10.4230/LIPIcs.ESA.2024.99"
+    arxiv: "2408.03864"
+
+  - title: "Quantum supremacy and hardness of estimating output probabilities of quantum circuits"
+    authors: ["Y. Kondo", "R. Mori", "R. Movassagh"]
+    conference: "Foundations of Computer Science"
+    confabbr: "FOCS"
+    pages: "1296--1307"
+    year: 2022
+    doi: "10.1109/FOCS52979.2021.00126"
+    arxiv: "2102.01960"
+
+  - title: "Quantum speedups for dynamic programming on n-dimensional lattice graphs"
+    authors: ["A. Glos", "M. Kokainis", "R. Mori", "J. Vihrovs"]
+    conference: "Mathematical Foundations of Computer Science"
+    confabbr: "MFCS"
+    series: "LIPIcs"
+    volume: 202
+    pages: "50:1--50:23"
+    year: 2021
+    doi: "10.4230/LIPIcs.MFCS.2021.50"
+    arxiv: "2104.14384"
+
+  - title: "A simple and fast algorithm for computing the N-th term of a linearly recurrent sequence"
+    authors: ["A. Bostan", "R. Mori"]
+    conference: "Symposium on Simplicity in Algorithms"
+    confabbr: "SOSA"
+    pages: "118--132"
+    year: 2021
+    doi: "10.1137/1.9781611976496.14"
+    arxiv: "2008.08822"
+
+  - title: "Exponential-time quantum algorithms for graph coloring problems"
+    authors: ["K. Shimizu", "R. Mori"]
+    conference: "Latin American Theoretical Informatics"
+    confabbr: "LATIN"
+    series: "LNCS"
+    volume: 12118
+    pages: "387--398"
+    year: 2020
+    doi: "10.1007/978-3-030-61792-9_31"
+
+  - title: "Sum of squares lower bounds for refuting any CSP"
+    authors: ["P.K. Kothari", "R. Mori", "R. O'Donnell", "D. Witmer"]
+    conference: "Symposium on the Theory of Computing"
+    confabbr: "STOC"
+    location: "Montreal, Canada"
+    pages: "132--145"
+    year: 2017
+    doi: "10.1145/3055399.3055485"
+
+  - title: "Lower bounds for CSP refutation by SDP hierarchies"
+    authors: ["R. Mori", "D. Witmer"]
+    conference: "Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques"
+    confabbr: "APPROX/RANDOM"
+    series: "LIPIcs"
+    volume: 60
+    pages: "41:1--41:30"
+    location: "Paris, France"
+    year: 2016
+    doi: "10.4230/LIPIcs.APPROX-RANDOM.2016.41"
+
+  - title: "Average shortest path length of graphs of diameter 3"
+    authors: ["N. Shimizu", "R. Mori"]
+    conference: "International Symposium on Networks on Chip"
+    confabbr: "NOCS"
+    location: "Nara, Japan"
+    year: 2016
+    doi: "10.1109/NOCS.2016.7579335"
+
+  - title: "Holographic transformation, belief propagation and loop calculus for generalized probabilistic theories"
+    authors: ["R. Mori"]
+    conference: "International Symposium on Information Theory"
+    confabbr: "ISIT"
+    location: "Hong Kong"
+    pages: "1099--1103"
+    year: 2015
+    doi: "10.1109/ISIT.2015.7282625"
+
+  - title: "Central approximation in statistical physics and information theory"
+    authors: ["R. Mori", "T. Tanaka"]
+    conference: "International Symposium on Information Theory"
+    confabbr: "ISIT"
+    location: "Cambridge, MA"
+    pages: "1652--1656"
+    year: 2012
+    doi: "10.1109/ISIT.2012.6283556"
+
+  - title: "Near concavity of the growth rate for coupled LDPC chains"
+    authors: ["S.H. Hassani", "N. Macris", "R. Mori"]
+    conference: "International Symposium on Information Theory"
+    confabbr: "ISIT"
+    location: "St. Petersburg, Russia"
+    pages: "356--360"
+    year: 2011
+    doi: "10.1109/ISIT.2011.6034145"
+
+  - title: "Connection between annealed free energy and belief propagation on random factor graph ensembles"
+    authors: ["R. Mori"]
+    conference: "International Symposium on Information Theory"
+    confabbr: "ISIT"
+    location: "St. Petersburg, Russia"
+    pages: "2016--2020"
+    year: 2011
+    doi: "10.1109/ISIT.2011.6033907"
+
+  - title: "Non-binary polar codes using Reed-Solomon codes and algebraic geometry codes"
+    authors: ["R. Mori", "T. Tanaka"]
+    conference: "Information Theory Workshop"
+    confabbr: "ITW"
+    location: "Dublin, Ireland"
+    year: 2010
+    doi: "10.1109/CIG.2010.5592755"
+
+  - title: "Refined rate of channel polarization"
+    authors: ["T. Tanaka", "R. Mori"]
+    conference: "International Symposium on Information Theory"
+    confabbr: "ISIT"
+    location: "Austin, TX"
+    pages: "889--893"
+    year: 2010
+    doi: "10.1109/ISIT.2010.5513574"
+
+  - title: "Channel polarization on q-ary discrete memoryless channels by arbitrary kernels"
+    authors: ["R. Mori", "T. Tanaka"]
+    conference: "International Symposium on Information Theory"
+    confabbr: "ISIT"
+    location: "Austin, TX"
+    pages: "894--898"
+    year: 2010
+    doi: "10.1109/ISIT.2010.5513568"
+
+  - title: "Performance and construction of polar codes on symmetric binary-input memoryless channels"
+    authors: ["R. Mori", "T. Tanaka"]
+    conference: "International Symposium on Information Theory"
+    confabbr: "ISIT"
+    location: "Seoul, Korea"
+    pages: "1496--1500"
+    year: 2009
+    doi: "10.1109/ISIT.2009.5205857"
+
+  - title: "Finite-length analysis of irregular expurgated LDPC codes under finite number of iterations"
+    authors: ["R. Mori", "T. Tanaka", "K. Kasai", "K. Sakaniwa"]
+    conference: "International Symposium on Information Theory"
+    confabbr: "ISIT"
+    location: "Seoul, Korea"
+    pages: "2497--2501"
+    year: 2009
+    doi: "10.1109/ISIT.2009.5206063"
+
+  - title: "Asymptotic gaps between BP decoding and local-MAP decoding for low-density parity-check codes"
+    authors: ["R. Mori", "K. Kasai", "T. Shibuya", "K. Sakaniwa"]
+    conference: "International Symposium on Turbo Codes and Related Topics"
+    confabbr: "ISTC"
+    location: "Lausanne, Switzerland"
+    pages: "162--167"
+    year: 2008
+    doi: "10.1109/TURBOCODING.2008.4658691"
+
+  - title: "Asymptotic bit error probability of LDPC codes for the binary erasure channel with finite number of iterations"
+    authors: ["R. Mori", "K. Kasai", "T. Shibuya", "K. Sakaniwa"]
+    conference: "International Symposium on Information Theory"
+    confabbr: "ISIT"
+    location: "Toronto, Canada"
+    pages: "449--453"
+    year: 2008
+    doi: "10.1109/ISIT.2008.4595026"
+
+

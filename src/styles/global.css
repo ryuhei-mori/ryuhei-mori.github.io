@@ -5,10 +5,10 @@
     @apply text-4xl font-black;
   }
   h2 {
-    @apply text-2xl font-black mb-2;
+    @apply text-2xl font-black mb-2 mt-2;
   }
   h3 {
-    @apply text-xl font-black mb-1;
+    @apply text-xl font-black mb-1 mt-1;
   }
   a {
     color: revert;

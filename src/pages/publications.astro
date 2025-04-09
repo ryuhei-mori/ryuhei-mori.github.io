@@ -1,0 +1,100 @@
+---
+import Layout from '../layouts/Layout.astro';
+import publications from '../data/publications.yml';
+const { journal_papers, conference_papers, preprints} = publications;
+---
+<Layout>
+<h2>Publications</h2>
+<h3>Preprints</h3>
+<ul class="list-disc ml-10">
+{preprints.map((item) =>(
+<li>
+{item.authors.map((author) => author).join(', ')},
+"{item.title},"
+{item.month}
+{item.year}.
+{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}>[arXiv]</a></>}
+</li>
+))}
+</ul>
+<h3>Journal papers</h3>
+<ol reversed class="list-decimal ml-10">
+{journal_papers.map((item) =>(
+<li>
+{item.authors.map((author) => author).join(', ')},
+"{item.title},"
+{item.journal},
+{item.volume && <>vol. {item.volume},</>}
+{item.issue && <>no. {item.issue},</>}
+{item.pages && <>pp. {item.pages},</>}
+{item.year}.
+{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}>[arXiv]</a></>}
+<a href={`https://doi.org/${item.doi}`}>[DOI]</a>
+</li>
+))}
+</ol>
+<h3>Conference papers</h3>
+<ol reversed class="list-decimal ml-10">
+{conference_papers.map((item) =>(
+<li>
+{item.authors.map((author) => author).join(', ')},
+"{item.title},"
+<abbr title={item.conference}>{item.confabbr}</abbr>,
+{item.series && <>{item.series},</>}
+{item.volume && <>vol. {item.volume},</>}
+{item.issue && <>no. {item.issue},</>}
+{item.pages && <>pp. {item.pages},</>}
+{item.year}.
+{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}>[arXiv]</a></>}
+<a href={`https://doi.org/${item.doi}`}>[DOI]</a>
+</li>
+))}
+</ol>
+<h3>Other manuscripts</h3>
+<ol reversed class="list-disc ml-10">
+<li>
+<cite>
+R. Mori,
+&ldquo;Average length of cycles in rectangular lattice,&rdquo;
+2017.
+</cite>
+<a href="https://arxiv.org/abs/1706.05184">[arXiv]</a>
+</li>
+<li>
+<cite>
+R. Mori and O. Watanabe,
+&ldquo;Peeling algorithm on random hypergraphs with superlinear number of hyperedges,&rdquo;
+2015.
+</cite>
+</li>
+<li>
+<cite>
+R. Mori, T. Koshiba, O. Watanabe, and M. Yamamoto,
+&ldquo;Linear programming relaxations for Goldreich's generators over non-binary alphabets,&rdquo;
+2014.
+</cite>
+</li>
+<li>
+<cite>
+R. Mori,
+&ldquo;Holographic transformation for quantum factor graphs,&rdquo;
+2014.
+</cite>
+</li>
+<li>
+<cite>
+R. Mori and T. Tanaka,
+&ldquo;New generalizations of the Bethe approximation via asymptotic expansion,&rdquo;
+2012 IEICE <abbr title="Symposium on Information Theory and its Application">SITA</abbr>, Oita, Japan, Dec. 11&ndash;14, 2012.
+</cite>
+</li>
+<li>
+<cite>
+R. Mori and T. Tanaka,
+&ldquo;Statistical mechanical analysis of low-density parity-check codes on general Markov channel,&rdquo;
+2011 IEICE <abbr title="Symposium on Information Theory and its Application">SITA</abbr>, Iwate, Japan, Nov. 29&ndash; Dec. 2, 2011.
+</cite>
+</li>
+</ol>
+</article>
+</Layout>

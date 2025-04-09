@@ -1,22 +1,25 @@
+---
+import Navbar from '../components/Navbar.astro';
+import { Image } from 'astro:assets';
+import ryuhei from '../assets/RyuheiMori.jpg';
+import pronounce from '../assets/ipa.png';
+import publications from '../data/publications.yml';
+const { journal_papers, conference_papers, preprints} = publications;
+---
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+<head>
+<meta charset="utf-8" />
+<title>Ryuhei Mori</title>
+</head>
+<body>
+<header>
+<Navbar />
+</header>
+<main role="main" class="p-8">
+  <slot />
+</main>
+<footer>
+</footer>
+</body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>

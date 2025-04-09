@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@layer base {
+  h1 {
+    @apply text-4xl font-black;
+  }
+  h2 {
+    @apply text-2xl font-black;
+  }
+  h3 {
+    @apply text-xl font-black;
+  }
+  a {
+    @apply text-blue-600 underline;
+  }
+  a:visited {
+    @apply text-purple-600 underline;
+  }
+  img {
+    @apply inline;
+  }
+}

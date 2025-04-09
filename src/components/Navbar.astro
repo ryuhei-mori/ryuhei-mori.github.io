@@ -1,12 +1,13 @@
 ---
 import { Astronav, MenuItems, MenuIcon,  Dropdown, DropdownItems } from "astro-navbar";
-import "../styles/global.css";
+import { Image } from 'astro:assets';
+import logo from '../assets/logo.svg';
 ---
 
 <header class="lg:flex p-5  gap-5">
   <Astronav>
     <div class="flex w-full justify-between">
-      <a href="/" class="no-underline text-current">Ryuhei Mori</a>
+      <a href="/" class="no-underline text-current"><Image class="h-6" alt="logo" src={logo}/></a>
       <div class="block lg:hidden">
         <MenuIcon class="w-4 h-4 text-gray-800" />
       </div>

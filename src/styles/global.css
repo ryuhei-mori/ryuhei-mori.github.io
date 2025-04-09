@@ -5,16 +5,18 @@
     @apply text-4xl font-black;
   }
   h2 {
-    @apply text-2xl font-black;
+    @apply text-2xl font-black mb-2;
   }
   h3 {
-    @apply text-xl font-black;
+    @apply text-xl font-black mb-1;
   }
   a {
-    @apply text-blue-600 underline;
+    color: revert;
+    text-decoration: revert;
   }
   a:visited {
-    @apply text-purple-600 underline;
+    color: revert;
+    text-decoration: revert;
   }
   img {
     @apply inline;

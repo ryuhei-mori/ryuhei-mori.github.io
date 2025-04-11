@@ -16,7 +16,7 @@ import arxiv from '../assets/arxiv-logomark-small-black.svg';
 "{item.title},"
 {item.month}
 {item.year}.
-{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}><Image class="h-5 w-5" alt="arXiv Link" src={arxiv}/></a></>}
+{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}><Image class="h-5 w-5 dark:invert" alt="arXiv Link" src={arxiv}/></a></>}
 </li>
 ))}
 </ul>
@@ -31,8 +31,8 @@ import arxiv from '../assets/arxiv-logomark-small-black.svg';
 {item.issue && <>no. {item.issue},</>}
 {item.pages && <>pp. {item.pages},</>}
 {item.year}.
-{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}><Image class="h-5 w-5" alt="arXiv Link" src={arxiv}/></a></>}
-<a href={`https://doi.org/${item.doi}`}><Image class="h-5 w-5" alt="DOI link" src={doi}/></a>
+{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}><Image class="h-5 w-5 dark:invert" alt="arXiv Link" src={arxiv}/></a></>}
+<a href={`https://doi.org/${item.doi}`}><Image class="h-5 w-5 dark:invert" alt="DOI link" src={doi}/></a>
 </li>
 ))}
 </ol>
@@ -48,8 +48,8 @@ import arxiv from '../assets/arxiv-logomark-small-black.svg';
 {item.issue && <>no. {item.issue},</>}
 {item.pages && <>pp. {item.pages},</>}
 {item.year}.
-{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}><Image class="h-5 w-5" alt="arXiv Link" src={arxiv}/></a></>}
-<a href={`https://doi.org/${item.doi}`}><Image class="h-5 w-5" alt="DOI link" src={doi}/></a>
+{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}><Image class="h-5 w-5 dark:invert" alt="arXiv Link" src={arxiv}/></a></>}
+<a href={`https://doi.org/${item.doi}`}><Image class="h-5 w-5 dark:invert" alt="DOI link" src={doi}/></a>
 </li>
 ))}
 </ol>

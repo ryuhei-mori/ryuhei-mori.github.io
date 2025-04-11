@@ -15,10 +15,7 @@
   a {
     color: revert;
     text-decoration: revert;
-  }
-  a:visited {
-    color: revert;
-    text-decoration: revert;
+    @apply dark:text-blue-400 dark:visited:text-purple-400;
   }
   img {
     @apply inline;

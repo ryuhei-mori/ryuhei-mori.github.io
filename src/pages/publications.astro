@@ -2,6 +2,9 @@
 import Layout from '../layouts/Layout.astro';
 import publications from '../data/publications.yml';
 const { journal_papers, conference_papers, preprints} = publications;
+import { Image } from 'astro:assets';
+import doi from '../assets/doi.svg';
+import arxiv from '../assets/arxiv-logomark-small-black.svg';
 ---
 <Layout>
 <h2>Publications</h2>
@@ -13,7 +16,7 @@ const { journal_papers, conference_papers, preprints} = publications;
 "{item.title},"
 {item.month}
 {item.year}.
-{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}>[arXiv]</a></>}
+{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}><Image class="h-5 w-5" alt="arXiv Link" src={arxiv}/></a></>}
 </li>
 ))}
 </ul>
@@ -28,8 +31,8 @@ const { journal_papers, conference_papers, preprints} = publications;
 {item.issue && <>no. {item.issue},</>}
 {item.pages && <>pp. {item.pages},</>}
 {item.year}.
-{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}>[arXiv]</a></>}
-<a href={`https://doi.org/${item.doi}`}>[DOI]</a>
+{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}><Image class="h-5 w-5" alt="arXiv Link" src={arxiv}/></a></>}
+<a href={`https://doi.org/${item.doi}`}><Image class="h-5 w-5" alt="DOI link" src={doi}/></a>
 </li>
 ))}
 </ol>
@@ -45,8 +48,8 @@ const { journal_papers, conference_papers, preprints} = publications;
 {item.issue && <>no. {item.issue},</>}
 {item.pages && <>pp. {item.pages},</>}
 {item.year}.
-{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}>[arXiv]</a></>}
-<a href={`https://doi.org/${item.doi}`}>[DOI]</a>
+{item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}><Image class="h-5 w-5" alt="arXiv Link" src={arxiv}/></a></>}
+<a href={`https://doi.org/${item.doi}`}><Image class="h-5 w-5" alt="DOI link" src={doi}/></a>
 </li>
 ))}
 </ol>

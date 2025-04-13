@@ -2,8 +2,8 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-@source not "../assets/arxiv-logomark-small-black.svg";
-@source not "../../public/polar.svg";
+@source not "../assets/";
+@source not "../../public/";
 
 @layer base {
   h1 {

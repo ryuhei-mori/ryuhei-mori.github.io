@@ -13,7 +13,6 @@
     @apply text-xl font-black mb-1 mt-1;
   }
   a {
-    transform: none !important;
     color: revert;
     text-decoration: revert;
     @apply dark:text-blue-400 dark:visited:text-purple-400;

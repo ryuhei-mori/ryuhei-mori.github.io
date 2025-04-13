@@ -2,6 +2,9 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@source not "../assets/arxiv-logomark-small-black.svg";
+@source not "../../public/polar.svg";
+
 @layer base {
   h1 {
     @apply text-4xl font-black;

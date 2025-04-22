@@ -12,10 +12,10 @@ import arxiv from '../assets/arxiv-logomark-small-black.svg';
 <ul class="list-disc ml-10">
 {preprints.map((item) =>(
 <li>
-{item.authors.map((author) => author).join(', ')},
-"{item.title},"
-{item.month}
-{item.year}.
+<>{item.authors.join(', ')},</>
+<>"{item.title},"</>
+<>{item.month}</>
+<>{item.year}.</>
 {item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}><Image class="h-5 w-5 dark:invert" alt="arXiv Link" src={arxiv}/></a></>}
 </li>
 ))}
@@ -24,13 +24,13 @@ import arxiv from '../assets/arxiv-logomark-small-black.svg';
 <ol reversed class="list-decimal ml-10">
 {journal_papers.map((item) =>(
 <li>
-{item.authors.map((author) => author).join(', ')},
-"{item.title},"
-{item.journal},
+<>{item.authors.join(', ')},</>
+<>"{item.title},"</>
+<>{item.journal},</>
 {item.volume && <>vol. {item.volume},</>}
 {item.issue && <>no. {item.issue},</>}
 {item.pages && <>pp. {item.pages},</>}
-{item.year}.
+<>{item.year}.</>
 {item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}><Image class="h-5 w-5 dark:invert" alt="arXiv Link" src={arxiv}/></a></>}
 <a href={`https://doi.org/${item.doi}`}><Image class="h-5 w-5 dark:invert" alt="DOI link" src={doi}/></a>
 </li>
@@ -40,14 +40,14 @@ import arxiv from '../assets/arxiv-logomark-small-black.svg';
 <ol reversed class="list-decimal ml-10">
 {conference_papers.map((item) =>(
 <li>
-{item.authors.map((author) => author).join(', ')},
-"{item.title},"
-<abbr title={item.conference}>{item.confabbr}</abbr>,
+<>{item.authors.join(', ')},</>
+<>"{item.title},"</>
+<><abbr title={item.conference}>{item.confabbr}</abbr>,</>
 {item.series && <>{item.series},</>}
 {item.volume && <>vol. {item.volume},</>}
 {item.issue && <>no. {item.issue},</>}
 {item.pages && <>pp. {item.pages},</>}
-{item.year}.
+<>{item.year}.</>
 {item.arxiv && <><a href={`https://arxiv.org/abs/${item.arxiv}`}><Image class="h-5 w-5 dark:invert" alt="arXiv Link" src={arxiv}/></a></>}
 <a href={`https://doi.org/${item.doi}`}><Image class="h-5 w-5 dark:invert" alt="DOI link" src={doi}/></a>
 </li>

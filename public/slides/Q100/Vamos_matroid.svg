@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="225px" height="315px" viewBox="0 0 225 315" enable-background="new 0 0 225 315" xml:space="preserve">
+<polygon opacity="0.5" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="95.638,303.453
+	160.332,267.084 81.413,131.155 16.719,167.523 "/>
+<polygon opacity="0.5" fill="#0081CD" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="95.638,303.453
+	160.332,267.084 81.413,131.155 16.719,167.523 "/>
+<polygon opacity="0.5" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="64.669,47.917
+	16.719,167.523 81.413,131.155 129.362,11.548 "/>
+<polygon opacity="0.5" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="143.587,183.845
+	95.638,303.453 160.332,267.084 208.281,147.478 "/>
+<polygon opacity="0.5" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="81.413,131.155
+	208.281,147.478 143.587,183.845 16.719,167.523 "/>
+<polygon opacity="0.5" fill="#0081CD" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="64.669,47.917
+	16.719,167.523 81.413,131.155 129.362,11.548 "/>
+<polygon opacity="0.5" fill="#0081CD" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="143.587,183.845
+	95.638,303.453 160.332,267.084 208.281,147.478 "/>
+<polygon opacity="0.5" fill="#0081CD" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="81.413,131.155
+	208.281,147.478 143.587,183.845 16.719,167.523 "/>
+<polygon opacity="0.5" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="143.587,183.846
+	208.281,147.478 129.363,11.548 64.669,47.916 "/>
+<polygon opacity="0.5" fill="#0081CD" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" points="143.587,183.846
+	208.281,147.478 129.363,11.548 64.669,47.916 "/>
+<circle fill="#BC1E47" cx="129.362" cy="11.548" r="6"/>
+<circle fill="#BC1E47" cx="64.669" cy="47.917" r="6"/>
+<circle fill="#BC1E47" cx="143.587" cy="183.845" r="6"/>
+<circle fill="#BC1E47" cx="208.281" cy="147.478" r="6"/>
+<circle fill="#BC1E47" cx="16.719" cy="167.523" r="6"/>
+<circle fill="#BC1E47" cx="81.413" cy="131.155" r="6"/>
+<circle fill="#BC1E47" cx="160.332" cy="267.084" r="6"/>
+<circle fill="#BC1E47" cx="95.638" cy="303.453" r="6"/>
+</svg>

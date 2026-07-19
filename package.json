@@ -2,7 +2,7 @@
   "name": "ryuhei-mori-github-io",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39",
+  "packageManager": "pnpm@10.34.5+sha512.a4ee05f2f73658255bd6a89859c065a45c28a57daefae2c893a168ee2b73168c37b91e83e57ea67654ad03f03031746430e8bce38e362e042605fb8abc80192e",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -10,11 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.4",
-    "astro": "^5.7.9",
-    "astro-navbar": "^2.3.9",
-    "sharp": "^0.34.1",
-    "tailwindcss": "^4.1.4"
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.1.1",
+    "astro-navbar": "^2.4.0",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@rollup/plugin-yaml": "^4.1.2"

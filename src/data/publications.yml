@@ -1,9 +1,4 @@
 preprints:
-  - title: "Complexity of graph-state preparation by Clifford circuits"
-    authors: ["S. Kumabe", "R. Mori", "Y. Yoshimura"]
-    month: "Feb."
-    year: 2024
-    arxiv: "2402.05874"
 
   - title: "Lower bounds on the error probability of multiple quantum channel discrimination by the Bures angle and the trace distance"
     authors: ["R. Ito", "R. Mori"]
@@ -13,6 +8,16 @@ preprints:
 
 
 journal_papers:
+  - title: "Complexity of graph-state preparation by Clifford circuits"
+    authors: ["S. Kumabe", "R. Mori", "Y. Yoshimura"]
+    month: "Feb."
+    year: 2026
+    journal: "Quantum"
+    volume: 10
+    pages: "2165"
+    arxiv: "2402.05874"
+    doi: "10.22331/q-2026-07-18-2165"
+
   - title: "Quantum speedup for higher-order unconstrained binary optimization and MIMO maximum likelihood detection"
     authors: ["M. Norimoto", "R. Mori", "N. Ishikawa"]
     journal: "IEEE Trans. Commun."
